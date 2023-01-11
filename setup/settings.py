@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'receitas',
+    'pessoas',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,6 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATICFILES_DIRS = [
 	os.path.join(BASE_DIR,'receitas/static')
 ]
+#Mídia para indicar o endereço das nossas imagens
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
